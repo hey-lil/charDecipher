@@ -16,8 +16,11 @@ console.log("lastLetter:", lastLetter(soup));
 // console.log(newCapString(firstLetter, lastLetter(soup)));
 
 var newStr = function(a,b) {
+  return a.toUpperCase() + b.toUpperCase();
+}
+var reverseStr = function(a,b) {
   return b.toUpperCase() + a.toUpperCase();
 }
 console.log("newStr:",newStr(firstLetter, lastLetter(soup)));
 
-
+var capsLastFirst = 
